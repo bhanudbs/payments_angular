@@ -1,0 +1,39 @@
+<!-- <div class="modal" tabindex="-1" role="dialog">
+        <div class="modal-content-wrapper">
+            <div class="modal-header">
+                <h5 class="modal-title">Transaction Status</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+            <div class="modal-body"> 
+                <p>{{s}}</p>
+            </div>
+            <div class="modal-footer">
+                <button mat-raised-button id="modal-cancelled-button" (click)="closemodal()">OK</button>
+            </div>
+        </div>
+</div> -->
+
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"> -->
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+
+<div class="modal-fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      
+        <div class="modal-header">
+          <h3 class="modal-title" id="exampleModalLabel">Transaction Status</h3>
+        </div>
+        <div class="modal-body">
+          <p style="text-align:center;">{{s}}</p>
+        </div>
+        <div class="modal-footer" id ="modal-footer">
+          <!-- <button type="button" class="btn btn-secondary" id="close " data-dismiss="modal">Close</button> -->
+          <button type="button" class="btn btn-primary" id="closeButton" (click)="closemodal()">Close</button>
+        </div>
+      
+    </div>
+  </div>

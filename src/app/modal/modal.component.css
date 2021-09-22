@@ -1,0 +1,11 @@
+
+#exampleModalLabel {
+    font-size: 22px;
+}
+
+#modal-footer {
+    left: 0;
+    bottom: 0;
+    margin-right: 0;
+    align-self: center; 
+}
